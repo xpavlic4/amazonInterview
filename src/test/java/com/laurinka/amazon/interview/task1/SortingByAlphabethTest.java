@@ -1,12 +1,14 @@
 
 package com.laurinka.amazon.interview.task1;
 
+import org.junit.Test;
+
 import static junit.framework.Assert.assertEquals;
 
 
 public class SortingByAlphabethTest {
 
-    @org.junit.Test
+    @Test
     public void testSoring() throws Exception {
         SortingByAlphabeth sortingByAlphabeth = new SortingByAlphabeth
                 ();
